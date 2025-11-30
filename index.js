@@ -11,7 +11,7 @@ class SortedList {
   }
 
   get(pos) {
-    if (!this.items[pos]) throw new Error('OutOfBound');
+    if (!this.items[pos]) throw new Error('OutOfBounds');
 
     return this.items[pos];
   }
